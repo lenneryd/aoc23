@@ -16,3 +16,10 @@ part=part2 ./gradlew run
 
 ## Docker
 According to the [Cygni AoC procedure](https://github.com/cygni/aoc_example)
+For example, for day `pre`. 
+```bash
+$ docker build -t pre .
+$ docker run -e part=part1 pre
+$ docker run -e part=part2 pre
+
+```
