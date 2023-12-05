@@ -87,7 +87,7 @@ internal class AocTest {
                     "56 93 4",
                     "",
                 )
-            ), 30L
+            ), 46L
         )
     }
 }
