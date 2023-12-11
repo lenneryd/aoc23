@@ -60,6 +60,6 @@ fun solve(input: List<String>, expansion: Long): Long {
     }
 }
 
-fun solutionPart1(input: List<String>): Long = solve(input, expansion = 1L)
+fun solutionPart1(input: List<String>): Long = solve(input, expansion = 2L)
 
 fun solutionPart2(input: List<String>, expansion: Long = 1_000_000L): Long = solve(input, expansion)
